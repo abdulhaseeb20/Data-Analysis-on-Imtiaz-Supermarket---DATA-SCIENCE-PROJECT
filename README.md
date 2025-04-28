@@ -1,8 +1,8 @@
-Customer Segmentation and Purchase Behavior Analysis
+**Customer Segmentation and Purchase Behavior Analysis**<br>
 This project performs end-to-end customer segmentation and purchase behavior analysis using machine learning models on an electronics retail dataset.
 
-📂 Modules
-1. Data Acquisition & Preprocessing
+**📂 Modules**<br>
+**1. Data Acquisition & Preprocessing**<br>
 Loaded data from electronics.json
 
 Converted to CSV format for easier processing
@@ -11,28 +11,29 @@ Handled missing values, mainly Customer_ID
 
 Initial cleaning and preparation
 
-📸 [Insert screenshot of the first few rows of the dataset]
+📸 ![Cleaned Dataset](image.png)
 
-2. Exploratory Data Analysis (EDA)
+**2. Exploratory Data Analysis (EDA)**<br>
 Visualized numerical variables: Age, Purchase Amount, etc.
 
 Visualized categorical variables: Gender, Product Category, Brand
 
-📸 [Insert screenshots of a few numerical and categorical plots]
+📸 ![Categorical Plot](image-1.png)
+    ![Numerical Plot](image-2.png)
 
-3. Feature Engineering
+**3. Feature Engineering**<br>
 Encoded categorical variables using Label Encoding and One-Hot Encoding.
 
-4. Clustering
+**4. Clustering**<br>
 Applied KMeans clustering to segment customers
 
 Used Elbow Method to choose the optimal number of clusters
 
 Visualized the clusters based on important features
 
-📸 [Insert screenshot of Elbow curve and cluster plot]
+📸 ![Elbow Curve](image-5.png)
 
-5. Classification Modeling
+**5. Classification Modeling**<br>
 Built and evaluated multiple classification models:
 
 Logistic Regression
@@ -49,14 +50,14 @@ Accuracy
 Confusion Matrix
 
 
-📸 [Insert screenshots of model evaluation metrics and ROC curves]
+📸 ![Confusion Matrix](image-4.png)
 
-6. Feature Importance
-Identified the top factors driving customer behavior using feature importance from Random Forest and XGBoost.
+**6. Feature Importance**<br>
+Identified the top factors driving customer behavior using feature importance from Random Forest.
 
-📸 [Insert screenshot of feature importance plot]
+📸 ![Avg Spending Over Time](image-3.png )
 
-⚙️ Technologies Used
+**⚙️ Technologies Used**<br>
 Python
 
 Pandas, NumPy
@@ -66,19 +67,19 @@ Matplotlib, Seaborn
 Scikit-learn
 
 
-📈 Results
+**📈 Results**<br>
 Successfully segmented customers into distinct groups.
 
 Identified key drivers behind customer purchase behavior.
 
 Achieved high accuracy with ensemble models like Random Forest and XGBoost.
 
-📌 Recommendations
+**📌 Recommendations**<br>
 Tailor marketing strategies based on identified customer clusters.
 
 Focus on important features like Age, Brand Affinity, and Purchase Frequency.
 
-📎 How to Run
+**📎 How to Run**<br>
 Clone this repository
 
 Install dependencies:
@@ -87,10 +88,10 @@ pip install -r requirements.txt
 Run the Jupyter Notebook:
 jupyter notebook analysis.ipynb
 
-📸 Screenshots
+**📸 Screenshots**<br>
 (Place screenshots in a screenshots/ folder and link them above.)
 
-🚀 Next Steps
+**🚀 Next Steps**<br>
  -Generate screenshots from your notebook (if you want, I can do this automatically!)
 
  -Bundle them into a folder

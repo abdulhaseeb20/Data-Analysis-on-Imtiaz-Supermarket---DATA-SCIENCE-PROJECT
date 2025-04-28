@@ -11,15 +11,15 @@ Handled missing values, mainly Customer_ID
 
 Initial cleaning and preparation
 
-📸 ![Cleaned Dataset](image.png)
+📸 ![Cleaned Dataset](screenshots/image.png)
 
 **2. Exploratory Data Analysis (EDA)**<br>
 Visualized numerical variables: Age, Purchase Amount, etc.
 
 Visualized categorical variables: Gender, Product Category, Brand
 
-📸 ![Categorical Plot](image-1.png)
-    ![Numerical Plot](image-2.png)
+📸 ![Categorical Plot](screenshots/image-1.png)
+    ![Numerical Plot](screenshots/image-2.png)
 
 **3. Feature Engineering**<br>
 Encoded categorical variables using Label Encoding and One-Hot Encoding.
@@ -31,7 +31,7 @@ Used Elbow Method to choose the optimal number of clusters
 
 Visualized the clusters based on important features
 
-📸 ![Elbow Curve](image-5.png)
+📸 ![Elbow Curve](screenshots/image-5.png)
 
 **5. Classification Modeling**<br>
 Built and evaluated multiple classification models:
@@ -50,12 +50,12 @@ Accuracy
 Confusion Matrix
 
 
-📸 ![Confusion Matrix](image-4.png)
+📸 ![Confusion Matrix](screenshots/image-4.png)
 
 **6. Feature Importance**<br>
 Identified the top factors driving customer behavior using feature importance from Random Forest.
 
-📸 ![Avg Spending Over Time](image-3.png )
+📸 ![Avg Spending Over Time](screenshots/image-3.png )
 
 **⚙️ Technologies Used**<br>
 Python
